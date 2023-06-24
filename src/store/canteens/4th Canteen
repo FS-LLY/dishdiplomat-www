@@ -1,0 +1,130 @@
+import { Canteen } from '@/types/Canteen';
+import { CanteenWindow } from '@/types/CanteenWindow';
+
+const TimoBrakeryWindow: CanteenWindow = {
+  name: 'Timo Brakery',
+  path: 'Timo Brakery',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const ChuanxianPoachWindow: CanteenWindow = {
+  name: 'Chuanxian Poach',
+  path: 'Chuanxian Poach',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const LightMealWindow: CanteenWindow = {
+  name: 'Light Meal',
+  path: 'Light Meal',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const KoreanFriedChickenlWindow: CanteenWindow = {
+  name: 'Korean Fried Chicken',
+  path: 'Korean Fried Chicken',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const ShiShangLuWindow: CanteenWindow = {
+  name: 'Shi Shang Lu',
+  path: 'Shi Shang Lu',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const Bibimbap&GrainNoodleWindow: CanteenWindow = {
+  name: 'Bibimbap & Grain Noodle',
+  path: 'Bibimbap & Grain Noodle',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const OmuRiceWindow: CanteenWindow = {
+  name: 'Omu-Rice',
+  path: 'Omu-Rice',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const Maocai&SpicypotWindow CanteenWindow = {
+  name: 'Maocai&Spicy Pot',
+  path: 'Maocai&Spicy Pot',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const SteamedDishesWindow CanteenWindow = {
+  name: 'Steamed Dishes',
+  path: 'Steamed Dishes',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const LanzhouNoodlesWindow CanteenWindow = {
+  name: 'Lanzhou Noodles',
+  path: 'Lanzhou Noodles',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const SlicedNoodlesWindow CanteenWindow = {
+  name: 'Sliced Noodles',
+  path: 'Sliced Noodles',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const Dumplings&RiceNoodlesWindow CanteenWindow = {
+  name: 'Dumplings & RiceNoodles',
+  path: 'Dumplings & RiceNoodles',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+
+const HotAndDryNoodlesWindow CanteenWindow = {
+  name: 'Hot-And-Dry Noodles',
+  path: 'Hot-And-Dry Noodles',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+
+const F+BeefRiceWindow CanteenWindow = {
+  name: 'F+ Beef Rice',
+  path: 'F+ Beef Rice',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const ChinesePastaWindow CanteenWindow = {
+  name: 'Chinese Pasta',
+  path: 'Chinese Pasta',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const RiceSetWindow CanteenWindow = {
+  name: 'Rice Set',
+  path: 'Rice Set',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const TeppanyakiWindow CanteenWindow = {
+  name: 'Teppanyaki',
+  path: 'Teppanyaki',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const HongKongRoastMeatWindow CanteenWindow = {
+  name: 'Hong Kong Roast Meat',
+  path: 'Hong Kong Roast Meat',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const SuperstarHamburgerWindow CanteenWindow = {
+  name: 'Superstar Hamburger',
+  path: 'Superstar Hamburger',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const GimlidPizzaWindow CanteenWindow = {
+  name: 'Gimlid Pizza',
+  path: 'Gimlid Pizza',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const SelfPickingWindow CanteenWindow = {
+  name: 'Self Picking',
+  path: 'Self Picking',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+const DuckBloodSoupWithVermicelliWindow CanteenWindow = {
+  name: 'Duck Blood Soup With Vermicelli',
+  path: 'Duck Blood Soup With Vermicelli',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+
+const HotchPotchWindow CanteenWindow = {
+  name: 'Hotch Potch',
+  path: 'Hotch Potch',
+  cover_picture: 'https://i.imgur.com/2Z3QJ5v.jpg',
+}
+
+export const 4th Canteen: Canteen = {
+  name: '4th Canteen',
+  path: '4th Canteen',
+  window_list: [TimoBrakeryWindow, ChuanxianPoachWindow, LightMealWindow,KoreanFriedChickenlWindow,ShiShangLuWindow,Bibimbap&GrainNoodleWindow,
+  OmuRiceWindow,Maocai&SpicypotWindow,SteamedDishesWindow,LanzhouNoodlesWindow,SlicedNoodlesWindow,Dumplings&RiceNoodlesWindow,HotAndDryNoodlesWindow,
+  F+BeefRiceWindow,ChinesePastaWindow,RiceSetWindow,TeppanyakiWindow,HongKongRoastMeatWindow, SuperstarHamburgerWindow, GimlidPizzaWindow,
+  SelfPickingWindow,DuckBloodSoupWithVermicelliWindow,HotchPotchWindow]
+}
